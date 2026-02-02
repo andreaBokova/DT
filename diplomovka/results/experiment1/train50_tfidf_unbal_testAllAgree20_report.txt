@@ -1,0 +1,15 @@
+              precision    recall  f1-score   support
+
+    negative     0.7500    0.6000    0.6667        60
+     neutral     0.8960    0.9709    0.9319       275
+    positive     0.8300    0.7477    0.7867       111
+
+    accuracy                         0.8655       446
+   macro avg     0.8253    0.7729    0.7951       446
+weighted avg     0.8599    0.8655    0.8601       446
+
+
+Confusion matrix (rows=true, cols=pred):
+[[ 36  13  11]
+ [  2 267   6]
+ [ 10  18  83]]
