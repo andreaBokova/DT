@@ -1,0 +1,20 @@
+MODEL: LinearSVC
+BEST CV macro-F1: 0.671707
+BEST PARAMS: {'clf__C': 0.1, 'clf__class_weight': 'balanced'}
+
+Classification report (TEST)
+              precision    recall  f1-score   support
+
+    negative     0.7541    0.7667    0.7603        60
+     neutral     0.9355    0.9491    0.9422       275
+    positive     0.8113    0.7748    0.7926       111
+
+    accuracy                         0.8812       446
+   macro avg     0.8336    0.8302    0.8317       446
+weighted avg     0.8802    0.8812    0.8805       446
+
+
+Confusion matrix (rows=true, cols=pred)
+[[ 46   7   7]
+ [  1 261  13]
+ [ 14  11  86]]

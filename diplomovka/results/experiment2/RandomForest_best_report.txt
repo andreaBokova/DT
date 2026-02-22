@@ -1,0 +1,20 @@
+MODEL: RandomForest
+BEST CV macro-F1: 0.641516
+BEST PARAMS: {'clf__class_weight': 'balanced', 'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 2, 'clf__n_estimators': 600}
+
+Classification report (TEST)
+              precision    recall  f1-score   support
+
+    negative     0.6667    0.8333    0.7407        60
+     neutral     0.9519    0.9345    0.9431       275
+    positive     0.8020    0.7297    0.7642       111
+
+    accuracy                         0.8700       446
+   macro avg     0.8068    0.8325    0.8160       446
+weighted avg     0.8762    0.8700    0.8714       446
+
+
+Confusion matrix (rows=true, cols=pred)
+[[ 50   4   6]
+ [  4 257  14]
+ [ 21   9  81]]

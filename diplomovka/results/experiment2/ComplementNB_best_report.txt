@@ -1,0 +1,20 @@
+MODEL: ComplementNB
+BEST CV macro-F1: 0.613693
+BEST PARAMS: {'clf__alpha': 0.5, 'clf__fit_prior': True, 'clf__norm': False}
+
+Classification report (TEST)
+              precision    recall  f1-score   support
+
+    negative     0.6866    0.7667    0.7244        60
+     neutral     0.9242    0.9309    0.9275       275
+    positive     0.7941    0.7297    0.7606       111
+
+    accuracy                         0.8587       446
+   macro avg     0.8016    0.8091    0.8042       446
+weighted avg     0.8598    0.8587    0.8587       446
+
+
+Confusion matrix (rows=true, cols=pred)
+[[ 46   3  11]
+ [  9 256  10]
+ [ 12  18  81]]

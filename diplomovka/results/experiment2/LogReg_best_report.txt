@@ -1,0 +1,20 @@
+MODEL: LogReg
+BEST CV macro-F1: 0.673976
+BEST PARAMS: {'clf__C': 0.5, 'clf__class_weight': 'balanced', 'clf__solver': 'saga'}
+
+Classification report (TEST)
+              precision    recall  f1-score   support
+
+    negative     0.6970    0.7667    0.7302        60
+     neutral     0.9436    0.9127    0.9279       275
+    positive     0.7632    0.7838    0.7733       111
+
+    accuracy                         0.8610       446
+   macro avg     0.8012    0.8211    0.8105       446
+weighted avg     0.8655    0.8610    0.8628       446
+
+
+Confusion matrix (rows=true, cols=pred)
+[[ 46   6   8]
+ [  5 251  19]
+ [ 15   9  87]]

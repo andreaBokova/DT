@@ -1,0 +1,20 @@
+MODEL: MultinomialNB
+BEST CV macro-F1: 0.604934
+BEST PARAMS: {'clf__alpha': 1.0, 'clf__fit_prior': True}
+
+Classification report (TEST)
+              precision    recall  f1-score   support
+
+    negative     0.5946    0.7333    0.6567        60
+     neutral     0.9341    0.9273    0.9307       275
+    positive     0.7677    0.6847    0.7238       111
+
+    accuracy                         0.8408       446
+   macro avg     0.7654    0.7818    0.7704       446
+weighted avg     0.8470    0.8408    0.8423       446
+
+
+Confusion matrix (rows=true, cols=pred)
+[[ 44   5  11]
+ [  8 255  12]
+ [ 22  13  76]]

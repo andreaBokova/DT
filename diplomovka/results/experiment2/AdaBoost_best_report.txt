@@ -1,0 +1,20 @@
+MODEL: AdaBoost
+BEST CV macro-F1: 0.557605
+BEST PARAMS: {'clf__learning_rate': 1.0, 'clf__n_estimators': 600}
+
+Classification report (TEST)
+              precision    recall  f1-score   support
+
+    negative     0.7955    0.5833    0.6731        60
+     neutral     0.8328    0.9782    0.8997       275
+    positive     0.8481    0.6036    0.7053       111
+
+    accuracy                         0.8318       446
+   macro avg     0.8255    0.7217    0.7593       446
+weighted avg     0.8316    0.8318    0.8208       446
+
+
+Confusion matrix (rows=true, cols=pred)
+[[ 35  18   7]
+ [  1 269   5]
+ [  8  36  67]]

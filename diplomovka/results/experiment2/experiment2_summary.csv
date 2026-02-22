@@ -1,0 +1,8 @@
+model,cv_best_macro_f1,test_macro_f1,best_params
+XGBoost,0.6893760895428899,0.8597726464686333,"{'clf__colsample_bytree': 0.8, 'clf__learning_rate': 0.1, 'clf__max_depth': 3, 'clf__min_child_weight': 1, 'clf__n_estimators': 900, 'clf__reg_lambda': 1.0, 'clf__subsample': 1.0}"
+LinearSVC,0.6717068865499433,0.83173185792367,"{'clf__C': 0.1, 'clf__class_weight': 'balanced'}"
+RandomForest,0.6415155095408823,0.8160036500640043,"{'clf__class_weight': 'balanced', 'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 2, 'clf__n_estimators': 600}"
+LogReg,0.6737315970291421,0.8104677796359866,"{'clf__C': 0.5, 'clf__class_weight': 'balanced', 'clf__solver': 'saga'}"
+ComplementNB,0.6136927645762679,0.8041696869948819,"{'clf__alpha': 0.5, 'clf__fit_prior': True, 'clf__norm': False}"
+MultinomialNB,0.6049340552923288,0.770394292008847,"{'clf__alpha': 1.0, 'clf__fit_prior': True}"
+AdaBoost,0.5576048856579283,0.7593352109370416,"{'clf__learning_rate': 1.0, 'clf__n_estimators': 600}"
